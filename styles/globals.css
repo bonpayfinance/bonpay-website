@@ -2,12 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: "WhyteInktrap";
+  src: url('../public/font/WhyteInktrap-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WhyteInktrap";
+  src: url('../public/font/WhyteInktrap-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WhyteInktrap";
+  src: url('../public/font/WhyteInktrap-Italic.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-WhyteInktrap: WhyteInktrap;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -81,7 +101,8 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #0A1012
+  background: #0A1012;
+  font-family: WhyteInktrap;
 }
 
 a {
