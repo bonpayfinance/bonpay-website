@@ -8,6 +8,10 @@ module.exports = {
     extend: {
       colors: {
         'green': '#46AFB2',
+        'gray':'rgba(136, 150, 171, 1)'
+      },
+      lineHeight: {
+        'norm': '1.3',
       }
     }
     
