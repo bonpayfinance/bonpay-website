@@ -292,7 +292,7 @@ export default App
         <section className="lg:mt-[10rem] mt-[13rem] mb-8">
           <div className="my-8 flex items-center text-center justify-center flex-col">
             <h4 className="font-bold text-green text-2xl lg:text-3xl ">Meet the team</h4>
-            <p className="font-light text-gray my-4 lg:px-[36rem]">Meet the passionate team behind Bonpay's success.</p>
+            <p className="font-light text-gray my-4 lg:px-[36rem]">Meet the passionate team behind Bonpay&apos;s success.</p>
           </div>
 
           <div className="flex justify-center items-center">
@@ -301,11 +301,11 @@ export default App
               <h2 className="font-bold mt-8 lg:text-xl">Codemon</h2>
               <p className="text-green">Blockchain Engineer</p>
               <div className="flex justify-center my-4">
-                <a href="https://linkedin.com/in/johnson-awah-alfred" target="_blank">
+                <a href="https://linkedin.com/in/johnson-awah-alfred" target="_blank" rel="noreferrer">
                   <img src={LinkedInIcon.src} alt="CodeMon" />
 
                 </a>
-                <a href="https://twitter.com/codemon_" target="_blank">
+                <a href="https://twitter.com/codemon_" target="_blank" rel="noreferrer">
                   <img src={TwitterIcon.src} alt="CodeMon" />
 
                 </a>
@@ -317,11 +317,11 @@ export default App
               <h2 className="font-bold mt-8 lg:text-xl">Maryam</h2>
               <p className="text-green">UI Designer</p>
               <div className="flex justify-center my-4">
-                <a href="https://linkedin.com/in/" target="_blank">
+                <a href="https://linkedin.com/in/" target="_blank" rel="noreferrer">
                   <img src={LinkedInIcon.src} alt="Maryam_linkedin" />
 
                 </a>
-                <a href="https://twitter.com/0x_neko" target="_blank">
+                <a href="https://twitter.com/0x_neko" target="_blank" rel="noreferrer">
                   <img src={TwitterIcon.src} alt="Maryam_twitter" />
 
                 </a>
