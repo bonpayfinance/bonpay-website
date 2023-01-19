@@ -4,6 +4,7 @@ import Button from '../components/Button'
 import HeaderImage from 'public/illustrations/header.png'
 import BUSD_Illustration from 'public/illustrations/busd_illustration_1.svg'
 import Nftbusd from 'public/illustrations/nftbusd.svg'
+import CodeBlock from "@/components/Codeblock";
 
 // Import Swiper React components
 import { Autoplay, A11y } from 'swiper';
@@ -26,8 +27,39 @@ import EthereumNetworkIcon from 'public/icons/networks/Ethereum.svg'
 import BinanceNetworkIcon from 'public/icons/networks/Binance.svg'
 import PolygonNetworkIcon from 'public/icons/networks/Polygon.svg'
 
+import YoutubeEmbed from '@/components/Video/Youtube'
+
+import CodeMonImage from 'public/team/codemon.png'
+import MaryamImage from 'public/team/maryam.svg'
+
+import LinkedInIcon from 'public/icons/socials/linkedin.svg'
+import TwitterIcon from 'public/icons/socials/twitter.svg'
 
 export default function Home() {
+
+  const sampleReactSnippet = `
+import React from 'react'
+import { useBonPay } from 'bonpay-react'
+
+const App = () => {
+  const bonPay = useBonPay({
+    value: '0.0001',
+    recipient: '0xAFcC4d55a83ae1A449Bee7783A2737aFb5d82254',
+    chainId: 5,
+    tokens: ['USDT','DAI','USDC']
+  })
+
+  function handlePayment() {
+    const pay = bonPay()
+    pay.setup()
+    pay.open()
+  }
+
+  return <button onClick={handlePayment}>Pay Now</button>
+}
+
+export default App
+  `
   return (
     <>
       <Head>
@@ -114,7 +146,7 @@ export default function Home() {
                 <img src={WhyBonPayIcon1.src} />
 
               </div>
-              <h4 className="font-bold text-xl">Increased payment options</h4>
+              <h4 className="font-bold lg:text-2xl">Increased payment options</h4>
               <p className="font-light text-gray my-4 lg:px-24">By accepting cryptocurrency payments, businesses can tap into a growing market of users who prefer to use digital currencies.</p>
             </div>
 
@@ -123,7 +155,7 @@ export default function Home() {
                 <img src={WhyBonPayIcon2.src} />
 
               </div>
-              <h4 className="font-bold text-xl">Cost Effective</h4>
+              <h4 className="font-bold lg:text-2xl">Cost Effective</h4>
               <p className="font-light text-gray my-4 lg:px-24">Being open-source and free, businesses can use the platform without incurring any additional costs.</p>
             </div>
 
@@ -132,7 +164,7 @@ export default function Home() {
                 <img src={WhyBonPayIcon3.src} />
 
               </div>
-              <h4 className="font-bold text-xl">Borderless Transactions</h4>
+              <h4 className="font-bold lg:text-2xl">Borderless Transactions</h4>
               <p className="font-light text-gray my-4 lg:px-24">Businesses can expand their reach globally without any issue of currency conversion or cross-border transaction fees.</p>
             </div>
 
@@ -145,7 +177,7 @@ export default function Home() {
                 <img src={WhyBonPayIcon4.src} />
 
               </div>
-              <h4 className="font-bold text-xl">99% Uptime</h4>
+              <h4 className="font-bold lg:text-2xl">99% Uptime</h4>
               <p className="font-light text-gray my-4 lg:px-24">To ensure that transactions can be processed quickly and efficiently, Bonpay is available and accessible to businesses and their customers at all times.</p>
             </div>
 
@@ -189,7 +221,7 @@ export default function Home() {
               autoplay={true}
             >
               <SwiperSlide>
-                <img src={EthereumNetworkIcon.src} className="" alt="ETH" />
+                <img src={EthereumNetworkIcon.src} alt="ETH" />
 
               </SwiperSlide>
               <SwiperSlide>            <img src={BinanceNetworkIcon.src} alt="Binance" />
@@ -197,7 +229,7 @@ export default function Home() {
               <SwiperSlide>            <img src={PolygonNetworkIcon.src} alt="Polygon" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={EthereumNetworkIcon.src} className="" alt="ETH" />
+                <img src={EthereumNetworkIcon.src} alt="ETH" />
 
               </SwiperSlide>
               <SwiperSlide>            <img src={BinanceNetworkIcon.src} alt="Binance" />
@@ -205,7 +237,7 @@ export default function Home() {
               <SwiperSlide>            <img src={PolygonNetworkIcon.src} alt="Polygon" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={EthereumNetworkIcon.src} className="" alt="ETH" />
+                <img src={EthereumNetworkIcon.src} alt="ETH" />
 
               </SwiperSlide>
               <SwiperSlide>            <img src={BinanceNetworkIcon.src} alt="Binance" />
@@ -222,12 +254,12 @@ export default function Home() {
         {/* Supported networks */}
 
 
-<section className="lg:mt-[20rem] mt-[13rem] grid lg:grid-cols-2 grid-rows-2 lg:grid-rows-1">
+        <section className="lg:mt-[20rem] mt-[13rem] grid lg:grid-cols-2 grid-rows-2 lg:grid-rows-1">
           <div className="my-8 flex lg:text-left justify-start flex-col">
             <h4 className="font-bold text-green text-2xl lg:text-3xl lg:text-left ">How it works</h4>
             <p className="font-light text-gray my-5 lg:pr-[10rem]">
               In the video, you will see a demonstration of how easy it is to make payments using our platform. You will also learn about our customizable payment gateway that can be integrated with your website or e-commerce platform.
-              <br/>
+              <br />
               <br />
 
               We understand the importance of security, flexibility, and compliance, and that is why we have designed our platform to meet the needs of businesses and individuals alike. We invite you to try Bonpay today and see the benefits for yourself.
@@ -235,9 +267,70 @@ export default function Home() {
           </div>
 
           <div>
-h
+            <YoutubeEmbed embedId={"A9jjvWlFmG4"} />
           </div>
-  </section>
+        </section>
+
+
+        {/* Code sample */}
+        <section className="lg:mt-[10rem] mt-[13rem]">
+          <div className="my-8 flex lg:text-left justify-start flex-col">
+            <h4 className="font-bold text-green text-2xl lg:text-3xl lg:text-left ">React SDK Code Sample</h4>
+            <p className="font-light text-gray my-5 lg:pr-[60rem]">
+              Bonpay ships with a React typescript SDK for all javascript fans, also integrating bonpay into your web app is very simple,see below.
+            </p>
+          </div>
+
+          <CodeBlock code={sampleReactSnippet} showLineNumbers={false} language="jsx" />
+
+        </section>
+
+        {/* code sample end */}
+
+
+        {/* meet the team */}
+        <section className="lg:mt-[10rem] mt-[13rem] mb-8">
+          <div className="my-8 flex items-center text-center justify-center flex-col">
+            <h4 className="font-bold text-green text-2xl lg:text-3xl ">Meet the team</h4>
+            <p className="font-light text-gray my-4 lg:px-[36rem]">Meet the passionate team behind Bonpay's success.</p>
+          </div>
+
+          <div className="flex justify-center items-center">
+            <div className="lg:mx-4 text-center">
+              <img src={CodeMonImage.src} alt="CodeMon" />
+              <h2 className="font-bold mt-8 lg:text-xl">Codemon</h2>
+              <p className="text-green">Blockchain Engineer</p>
+              <div className="flex justify-center my-4">
+                <a href="https://linkedin.com/in/johnson-awah-alfred" target="_blank">
+                  <img src={LinkedInIcon.src} alt="CodeMon" />
+
+                </a>
+                <a href="https://twitter.com/codemon_" target="_blank">
+                  <img src={TwitterIcon.src} alt="CodeMon" />
+
+                </a>
+
+              </div>
+            </div>
+            <div className="lg:mx-4 text-center">
+              <img src={MaryamImage.src} alt="Maryam" />
+              <h2 className="font-bold mt-8 lg:text-xl">Maryam</h2>
+              <p className="text-green">UI Designer</p>
+              <div className="flex justify-center my-4">
+                <a href="https://linkedin.com/in/" target="_blank">
+                  <img src={LinkedInIcon.src} alt="Maryam_linkedin" />
+
+                </a>
+                <a href="https://twitter.com/0x_neko" target="_blank">
+                  <img src={TwitterIcon.src} alt="Maryam_twitter" />
+
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
 
       </main>
     </>
