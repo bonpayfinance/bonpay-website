@@ -30,7 +30,7 @@ import PolygonNetworkIcon from 'public/icons/networks/Polygon.svg'
 import YoutubeEmbed from '@/components/Video/Youtube'
 
 import CodeMonImage from 'public/team/codemon.png'
-import MaryamImage from 'public/team/maryam.svg'
+import MaryamImage from 'public/team/maryam.png'
 
 import LinkedInIcon from 'public/icons/socials/linkedin.svg'
 import TwitterIcon from 'public/icons/socials/twitter.svg'
