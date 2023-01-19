@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <Head>
         <title>Bonpay Finance</title>
-        <meta name="description" content="A Web3 payment framework for small and large businesses." />
+        <meta name="description" content="Easily accept cryptocurrency payments for your business with Bonpay. Our decentralized open source platform allows you to accept digital payments with ease and security." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icon.png" />
       </Head>
@@ -24,7 +24,7 @@ export default function Home() {
             <h2 className="text-green text-2xl lg:text-5xl py-8 leading-norm font-bold">Streamline your Payments. 
             <br/>
             Simplify your Business.</h2>
-            <p className="text-gray text-base lg:mb-10 mb-5 font-light lg:mr-[11.5rem]">Easily accept cryptocurrency payments for your business with Bonpay. Our decentralized open source platform allows you to process digital asset payments with ease and security. With our payment gateway, you can integrate with your existing e-commerce platform and start accepting payments in multiple cryptocurrencies.</p>
+            <p className="text-gray text-base lg:mb-10 mb-5 font-light lg:mr-[11.5rem]">Easily accept cryptocurrency payments for your business with Bonpay. Our decentralized open source platform allows you to accept digital payments with ease and security. With our payment gateway, you can integrate with your existing e-commerce platform and start accepting payments in multiple cryptocurrencies.</p>
             <Button content="Quick Demo" />
           </div>
           <div className="mt-8 lg:mt-0 lg:w-[50%]">
@@ -59,11 +59,11 @@ export default function Home() {
 
 
           <div className="flex lg:flex-row flex-col items-center lg:my-16">
-            <div className="lg:w-[55%] flex flex-col text-center lg:text-left order-last lg:order-1">
+            <div className="lg:w-[55%] flex flex-col order-last lg:order-1">
               <img src={Nftbusd.src} className="lg:h-[30rem]" />
               
             </div>
-            <div className="lg:w-[45%] lg:order-last">
+            <div className="lg:w-[45%] lg:order-last text-center lg:text-left ">
               <div className="mb-8 font-bold  mt-10">
                 <h4 className="mb-4 lg:text-2xl">Accept NFT Payments</h4>
                 <p className="text-gray font-light">BonPay supports payments in Non-Fungible Tokens (NFTs). Businesses can choose an NFT collection and allow customers to pay with assets from that collection. This feature provides businesses with a new revenue stream and access to the world of digital art and collectibles.</p>
