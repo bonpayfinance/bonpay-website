@@ -35,7 +35,12 @@ import MaryamImage from 'public/team/maryam.png'
 import LinkedInIcon from 'public/icons/socials/linkedin.svg'
 import TwitterIcon from 'public/icons/socials/twitter.svg'
 
+import Footer from '../components/Footer'
+import { redirectTo } from '../utils/helpers'
+
 export default function Home() {
+
+
 
   const sampleReactSnippet = `
 import React from 'react'
@@ -77,7 +82,7 @@ export default App
               <br />
               Simplify your Business.</h2>
             <p className="text-gray text-base lg:mb-10 mb-5 font-light lg:mr-[11.5rem]">Easily accept cryptocurrency payments for your business with Bonpay. Our decentralized open source platform allows you to accept digital payments with ease and security. With our payment gateway, you can integrate with your existing e-commerce platform and start accepting payments in multiple cryptocurrencies.</p>
-            <Button content="Quick Demo" />
+            <Button content="Quick Demo" onClick={() => redirectTo('https://bonpay-js.vercel.app/')} />
           </div>
           <div className="mt-8 lg:mt-0 lg:w-[50%]">
             <img src={HeaderImage.src} />
@@ -317,11 +322,11 @@ export default App
               <h2 className="font-bold mt-8 lg:text-xl">Maryam</h2>
               <p className="text-green">UI Designer</p>
               <div className="flex justify-center my-4">
-                <a href="https://linkedin.com/in/" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/maryam-akanbi" target="_blank" rel="noreferrer">
                   <img src={LinkedInIcon.src} alt="Maryam_linkedin" />
 
                 </a>
-                <a href="https://twitter.com/0x_neko" target="_blank" rel="noreferrer">
+                <a href="https://www.twitter.com/maryam__ay" target="_blank" rel="noreferrer">
                   <img src={TwitterIcon.src} alt="Maryam_twitter" />
 
                 </a>
@@ -332,6 +337,16 @@ export default App
         </section>
 
 
+{/* ready to scale */}
+        <section className="lg:mt-[10rem] mt-[13rem] mb-8">
+          <div className="my-8 flex items-center text-center justify-center flex-col">
+            <h4 className="font-bold text-green text-2xl lg:text-3xl ">Ready to Scale your Business with Bonpay?</h4>
+            <Button onClick={() => redirectTo('https://github.com/CeoFred/bonpay-js')} className="my-8 text-sm  lg:text-xl">Get started</Button>
+          </div>
+          </section>
+
+          {/* footer */}
+        <Footer />
       </main>
     </>
   )
