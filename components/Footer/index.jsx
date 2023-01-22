@@ -13,7 +13,7 @@ export default function Footer() {
         </div>
         <h5 className='font-bold my-8 text-sm lg:text-xl'>Streamline your Payments. Simplify your Business.</h5>
         <div className="flex flex-row mt-8 justify-between items-center">
-            <div className="text-gray font-base w-[100%] lg:w-[20%] flex justify-between text-sm ">
+            <div className="text-gray font-base w-[100%] lg:w-[45%] md:w-[40%] flex justify-between text-sm ">
               <a className="mr-5" href='https://github.com/CeoFred/bonpay-react'>React SDK</a>
               <a className="mr-5" href="https://github.com/CeoFred/bonpay-js">Web SDK</a>
               <a className="mr-5" href="https://github.com/CeoFred/bonpay-ui">Bonpay UI</a>

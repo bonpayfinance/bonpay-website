@@ -85,7 +85,7 @@ export default App
             <Button content="Quick Demo" onClick={() => redirectTo('https://bonpay-js.vercel.app/')} />
           </div>
           <div className="mt-8 lg:mt-0 lg:w-[50%]">
-            <img src={HeaderImage.src} />
+            <img src={HeaderImage.src} className="h-[15rem] md:h-[19rem] lg:h-[20rem]" />
           </div>
 
 
@@ -107,7 +107,7 @@ export default App
               </div>
             </div>
             <div className="lg:w-[45%]">
-              <img src={BUSD_Illustration.src} />
+              <img src={BUSD_Illustration.src} className="h-[15rem] md:h-[19rem] lg:h-[20rem]"  />
 
             </div>
 
@@ -117,7 +117,7 @@ export default App
 
           <div className="flex lg:flex-row flex-col items-center lg:my-16">
             <div className="lg:w-[55%] flex flex-col order-last lg:order-1">
-              <img src={Nftbusd.src} className="lg:h-[30rem]" />
+              <img src={Nftbusd.src} className="h-[15rem] md:h-[19rem] lg:h-[20rem]" />
 
             </div>
             <div className="lg:w-[45%] lg:order-last text-center lg:text-left ">
@@ -140,7 +140,7 @@ export default App
 
           <div className="my-8 flex items-center text-center justify-center flex-col">
             <h4 className="font-bold text-green text-2xl lg:text-3xl ">Why Bonpay</h4>
-            <p className="font-light text-gray my-4 lg:px-[36rem]">Your users can pay with the these stable coins; BUSD, USDC, DAI and USDT</p>
+            <p className="font-light text-gray my-4 lg:px-[16rem]">Your users can pay with the these stable coins; BUSD, USDC, DAI and USDT</p>
           </div>
 
 
@@ -152,7 +152,7 @@ export default App
 
               </div>
               <h4 className="font-bold lg:text-2xl">Increased payment options</h4>
-              <p className="font-light text-gray my-4 lg:px-24">By accepting cryptocurrency payments, businesses can tap into a growing market of users who prefer to use digital currencies.</p>
+              <p className="font-light text-gray my-4 lg:px-14">By accepting cryptocurrency payments, businesses can tap into a growing market of users who prefer to use digital currencies.</p>
             </div>
 
             <div className="flex items-center text-center justify-center flex-col">
@@ -161,7 +161,7 @@ export default App
 
               </div>
               <h4 className="font-bold lg:text-2xl">Cost Effective</h4>
-              <p className="font-light text-gray my-4 lg:px-24">Being open-source and free, businesses can use the platform without incurring any additional costs.</p>
+              <p className="font-light text-gray my-4 lg:px-14">Being open-source and free, businesses can use the platform without incurring any additional costs.</p>
             </div>
 
             <div className="flex items-center text-center justify-center flex-col">
@@ -170,7 +170,7 @@ export default App
 
               </div>
               <h4 className="font-bold lg:text-2xl">Borderless Transactions</h4>
-              <p className="font-light text-gray my-4 lg:px-24">Businesses can expand their reach globally without any issue of currency conversion or cross-border transaction fees.</p>
+              <p className="font-light text-gray my-4 lg:px-14">Businesses can expand their reach globally without any issue of currency conversion or cross-border transaction fees.</p>
             </div>
 
           </div>
@@ -183,7 +183,7 @@ export default App
 
               </div>
               <h4 className="font-bold lg:text-2xl">99% Uptime</h4>
-              <p className="font-light text-gray my-4 lg:px-24">To ensure that transactions can be processed quickly and efficiently, Bonpay is available and accessible to businesses and their customers at all times.</p>
+              <p className="font-light text-gray my-4 lg:px-14">To ensure that transactions can be processed quickly and efficiently, Bonpay is available and accessible to businesses and their customers at all times.</p>
             </div>
 
             <div className="flex items-center text-center justify-center flex-col">
@@ -192,7 +192,7 @@ export default App
 
               </div>
               <h4 className="font-bold text-xl">Security</h4>
-              <p className="font-light text-gray my-4 lg:px-24">Bonpay utilizes blockchain technology, which ensures that transactions are cryptographically secure and tamper-proof. </p>
+              <p className="font-light text-gray my-4 lg:px-14">Bonpay utilizes blockchain technology, which ensures that transactions are cryptographically secure and tamper-proof. </p>
             </div>
 
             <div className="flex items-center text-center justify-center flex-col">
@@ -201,7 +201,7 @@ export default App
 
               </div>
               <h4 className="font-bold text-xl">Ease of integration</h4>
-              <p className="font-light text-gray my-4 lg:px-24">In just a few lines of code, you can easily integrate bonpay using our SDKs into your existing/new application.</p>
+              <p className="font-light text-gray my-4 lg:px-14">In just a few lines of code, you can easily integrate bonpay using our SDKs into your existing/new application.</p>
             </div>
 
           </div>
@@ -212,7 +212,7 @@ export default App
         <section className="lg:mt-[15rem] mb-[5rem]">
           <div className="my-8 flex items-center text-center justify-center flex-col">
             <h4 className="font-bold text-green text-2xl lg:text-3xl ">Supported Networks</h4>
-            <p className="font-light text-gray my-4 lg:px-[36rem]">Bonpay is available across a myriad of multiple EVM Compatible networks</p>
+            <p className="font-light text-gray my-4 lg:px-[16rem]">Bonpay is available across a myriad of multiple EVM Compatible networks</p>
           </div>
 
 
@@ -281,7 +281,7 @@ export default App
         <section className="lg:mt-[10rem] mt-[13rem]">
           <div className="my-8 flex lg:text-left justify-start flex-col">
             <h4 className="font-bold text-green text-2xl lg:text-3xl lg:text-left ">React SDK Code Sample</h4>
-            <p className="font-light text-gray my-5 lg:pr-[60rem]">
+            <p className="font-light text-gray my-5 lg:pr-[40rem]">
               Bonpay ships with a React typescript SDK for all javascript fans, also integrating bonpay into your web app is very simple,see below.
             </p>
           </div>
@@ -296,8 +296,8 @@ export default App
         {/* meet the team */}
         <section className="lg:mt-[10rem] mt-[13rem] mb-8">
           <div className="my-8 flex items-center text-center justify-center flex-col">
-            <h4 className="font-bold text-green text-2xl lg:text-3xl ">Meet the team</h4>
-            <p className="font-light text-gray my-4 lg:px-[36rem]">Meet the passionate team behind Bonpay&apos;s success.</p>
+            <h4 className="font-bold text-green text-2xl lg:text-3xl">Meet the team</h4>
+            <p className="font-light text-gray my-4">Meet the passionate team behind Bonpay&apos;s success.</p>
           </div>
 
           <div className="flex justify-center items-center">
