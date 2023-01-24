@@ -85,7 +85,7 @@ export default App
             <Button content="Quick Demo" onClick={() => redirectTo('https://bonpay-js.vercel.app/')} />
           </div>
           <div className="mt-8 lg:mt-0 lg:w-[50%]">
-            <img src={HeaderImage.src} className="h-[15rem] md:h-[19rem] lg:h-[20rem]" />
+            <img src={HeaderImage.src} className="h-[15rem] md:h-[19rem] lg:h-[29rem]" />
           </div>
 
 
@@ -107,7 +107,7 @@ export default App
               </div>
             </div>
             <div className="lg:w-[45%]">
-              <img src={BUSD_Illustration.src} className="h-[15rem] md:h-[19rem] lg:h-[20rem]"  />
+              <img src={BUSD_Illustration.src} className="h-[15rem] md:h-[19rem] lg:h-[29rem]"  />
 
             </div>
 
@@ -117,7 +117,7 @@ export default App
 
           <div className="flex lg:flex-row flex-col items-center lg:my-16">
             <div className="lg:w-[55%] flex flex-col order-last lg:order-1">
-              <img src={Nftbusd.src} className="h-[15rem] md:h-[19rem] lg:h-[20rem]" />
+              <img src={Nftbusd.src} className="h-[15rem] md:h-[19rem] lg:h-[29rem]" />
 
             </div>
             <div className="lg:w-[45%] lg:order-last text-center lg:text-left ">
