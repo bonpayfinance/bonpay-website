@@ -294,7 +294,7 @@ export default App
 
 
         {/* meet the team */}
-        <section className="lg:mt-[10rem] mt-[13rem] mb-8">
+        {/* <section className="lg:mt-[10rem] mt-[13rem] mb-8">
           <div className="my-8 flex items-center text-center justify-center flex-col">
             <h4 className="font-bold text-green text-2xl lg:text-3xl">Meet the team</h4>
             <p className="font-light text-gray my-4">Meet the passionate team behind Bonpay&apos;s success.</p>
@@ -334,7 +334,7 @@ export default App
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
 
 {/* ready to scale */}
