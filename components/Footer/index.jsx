@@ -1,6 +1,6 @@
 
 import Button from '../Button'
-import Logo from '/public/logo.svg'
+import Logo from '/public/logo.png'
 import { redirectTo} from '../../utils/helpers'
 
 export default function Footer() {

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import NavBar from '../components/NavBar'
 import Button from '../components/Button'
-import HeaderImage from 'public/illustrations/header.png'
+import HeaderImage from 'public/illustrations/header.svg'
 import BUSD_Illustration from 'public/illustrations/busd_illustration_1.svg'
 import Nftbusd from 'public/illustrations/nftbusd.svg'
 import CodeBlock from "@/components/Codeblock";
@@ -78,7 +78,7 @@ export default App
 
         <div className="flex lg:flex-row flex-col items-center">
           <div className="lg:text-left text-center lg:w-[50%]">
-            <h2 className="text-green text-2xl lg:text-5xl py-8 leading-norm font-bold">Streamline your Payments.
+            <h2 className="text-[#fff] text-2xl lg:text-5xl py-8 leading-norm font-bold">Streamline your Payments.
               <br />
               Simplify your Business.</h2>
             <p className="text-gray text-base lg:mb-10 mb-5 font-light lg:mr-[11.5rem]">Easily accept cryptocurrency payments for your business with Bonpay. Our decentralized open source platform allows you to accept digital payments with ease and security. With our payment gateway, you can integrate with your existing e-commerce platform and start accepting payments in multiple cryptocurrencies.</p>
@@ -92,8 +92,8 @@ export default App
         </div>
 
         {/* Bonpay offerings */}
-        <section className="my-14">
-          <h3 className='font-bold text-green text-center text-xl lg:text-3xl lg:my-24'>Bonpay Offerings</h3>
+        <section className="my-14 mt-[20rem]">
+          <h3 className='font-bold text-[#fff] text-center text-xl lg:text-3xl lg:my-24'>Bonpay Offerings</h3>
 
           <div className="flex lg:flex-row flex-col items-center">
             <div className="lg:w-[55%] flex flex-col text-center lg:text-left">
@@ -139,7 +139,7 @@ export default App
         <section className="flex flex-col lg:mt-[15rem]">
 
           <div className="my-8 flex items-center text-center justify-center flex-col">
-            <h4 className="font-bold text-green text-2xl lg:text-3xl ">Why Bonpay</h4>
+            <h4 className="font-bold text-[#fff] text-2xl lg:text-3xl ">Why Bonpay</h4>
             <p className="font-light text-gray my-4 lg:px-[16rem]">Your users can pay with the these stable coins; BUSD, USDC, DAI and USDT</p>
           </div>
 
@@ -147,7 +147,7 @@ export default App
           <div className="grid lg:grid-cols-3 grid-rows-3 lg:grid-rows-1">
 
             <div className="flex items-center text-center justify-center flex-col">
-              <div className="bg-green rounded-md p-4 w-14 flex items-center text-center justify-center my-4">
+              <div className="bg-[#7B61FF] rounded-md p-4 w-14 flex items-center text-center justify-center my-4">
                 <img src={WhyBonPayIcon1.src} />
 
               </div>
@@ -156,7 +156,7 @@ export default App
             </div>
 
             <div className="flex items-center text-center justify-center flex-col">
-              <div className="bg-green rounded-md p-4 w-14 flex items-center text-center justify-center my-4">
+              <div className="bg-[#7B61FF] rounded-md p-4 w-14 flex items-center text-center justify-center my-4">
                 <img src={WhyBonPayIcon2.src} />
 
               </div>
@@ -165,7 +165,7 @@ export default App
             </div>
 
             <div className="flex items-center text-center justify-center flex-col">
-              <div className="bg-green rounded-md p-4 w-14 flex items-center text-center justify-center my-4">
+              <div className="bg-[#7B61FF] rounded-md p-4 w-14 flex items-center text-center justify-center my-4">
                 <img src={WhyBonPayIcon3.src} />
 
               </div>
@@ -178,7 +178,7 @@ export default App
           <div className="grid lg:grid-cols-3 grid-rows-3 my-8 lg:grid-rows-1">
 
             <div className="flex items-center text-center justify-center flex-col">
-              <div className="bg-green rounded-md p-4 w-14 flex items-center text-center justify-center my-4">
+              <div className="bg-[#7B61FF] rounded-md p-4 w-14 flex items-center text-center justify-center my-4">
                 <img src={WhyBonPayIcon4.src} />
 
               </div>
@@ -187,7 +187,7 @@ export default App
             </div>
 
             <div className="flex items-center text-center justify-center flex-col">
-              <div className="bg-green rounded-md p-4 w-14 flex items-center text-center justify-center my-4">
+              <div className="bg-[#7B61FF] rounded-md p-4 w-14 flex items-center text-center justify-center my-4">
                 <img src={WhyBonPayIcon5.src} alt="Security" />
 
               </div>
@@ -196,7 +196,7 @@ export default App
             </div>
 
             <div className="flex items-center text-center justify-center flex-col">
-              <div className="bg-green rounded-md p-4 w-14 flex items-center text-center justify-center my-4">
+              <div className="bg-[#7B61FF] rounded-md p-4 w-14 flex items-center text-center justify-center my-4">
                 <img src={WhyBonPayIcon6.src} alt="Ease of integration" />
 
               </div>
@@ -211,7 +211,7 @@ export default App
         {/* Supported networks */}
         <section className="lg:mt-[15rem] mb-[5rem]">
           <div className="my-8 flex items-center text-center justify-center flex-col">
-            <h4 className="font-bold text-green text-2xl lg:text-3xl ">Supported Networks</h4>
+            <h4 className="font-bold text-[#fff] text-2xl lg:text-3xl ">Supported Networks</h4>
             <p className="font-light text-gray my-4 lg:px-[16rem]">Bonpay is available across a myriad of multiple EVM Compatible networks</p>
           </div>
 
@@ -261,7 +261,7 @@ export default App
 
         <section className="lg:mt-[20rem] mt-[13rem] grid lg:grid-cols-2 grid-rows-2 lg:grid-rows-1">
           <div className="my-8 flex lg:text-left justify-start flex-col">
-            <h4 className="font-bold text-green text-2xl lg:text-3xl lg:text-left ">How it works</h4>
+            <h4 className="font-bold text-[#fff] text-2xl lg:text-3xl lg:text-left ">How it works</h4>
             <p className="font-light text-gray my-5 lg:pr-[10rem]">
               In the video, you will see a demonstration of how easy it is to make payments using our platform. You will also learn about our customizable payment gateway that can be integrated with your website or e-commerce platform.
               <br />
@@ -280,7 +280,7 @@ export default App
         {/* Code sample */}
         <section className="lg:mt-[10rem] mt-[13rem]">
           <div className="my-8 flex lg:text-left justify-start flex-col">
-            <h4 className="font-bold text-green text-2xl lg:text-3xl lg:text-left ">React SDK Code Sample</h4>
+            <h4 className="font-bold text-[#fff] text-2xl lg:text-3xl lg:text-left ">React SDK Code Sample</h4>
             <p className="font-light text-gray my-5 lg:pr-[40rem]">
               Bonpay ships with a React typescript SDK for all javascript fans, also integrating bonpay into your web app is very simple,see below.
             </p>
@@ -296,7 +296,7 @@ export default App
         {/* meet the team */}
         {/* <section className="lg:mt-[10rem] mt-[13rem] mb-8">
           <div className="my-8 flex items-center text-center justify-center flex-col">
-            <h4 className="font-bold text-green text-2xl lg:text-3xl">Meet the team</h4>
+            <h4 className="font-bold text-[#7B61FF] text-2xl lg:text-3xl">Meet the team</h4>
             <p className="font-light text-gray my-4">Meet the passionate team behind Bonpay&apos;s success.</p>
           </div>
 
@@ -304,7 +304,7 @@ export default App
             <div className="lg:mx-4 text-center">
               <img src={CodeMonImage.src} alt="CodeMon" />
               <h2 className="font-bold mt-8 lg:text-xl">Codemon</h2>
-              <p className="text-green">Blockchain Engineer</p>
+              <p className="text-[#7B61FF]">Blockchain Engineer</p>
               <div className="flex justify-center my-4">
                 <a href="https://linkedin.com/in/johnson-awah-alfred" target="_blank" rel="noreferrer">
                   <img src={LinkedInIcon.src} alt="CodeMon" />
@@ -320,7 +320,7 @@ export default App
             <div className="lg:mx-4 text-center">
               <img src={MaryamImage.src} alt="Maryam" />
               <h2 className="font-bold mt-8 lg:text-xl">Maryam</h2>
-              <p className="text-green">UI Designer</p>
+              <p className="text-[#7B61FF]">UI Designer</p>
               <div className="flex justify-center my-4">
                 <a href="https://www.linkedin.com/in/maryam-akanbi" target="_blank" rel="noreferrer">
                   <img src={LinkedInIcon.src} alt="Maryam_linkedin" />
@@ -340,7 +340,7 @@ export default App
 {/* ready to scale */}
         <section className="lg:mt-[10rem] mt-[13rem] mb-8">
           <div className="my-8 flex items-center text-center justify-center flex-col">
-            <h4 className="font-bold text-green text-2xl lg:text-3xl ">Ready to Scale your Business with Bonpay?</h4>
+            <h4 className="font-bold text-[#fff] text-2xl lg:text-3xl ">Ready to Scale your Business with Bonpay?</h4>
             <Button onClick={() => redirectTo('https://github.com/CeoFred/bonpay-js')} className="my-8 text-sm  lg:text-xl">Get started</Button>
           </div>
           </section>
