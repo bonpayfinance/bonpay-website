@@ -108,9 +108,9 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb)); */
   background: #0A1012;
-  font-family: WhyteInktrap;
+  /* font-family: WhyteInktrap; */
 }
 
 a {
@@ -118,8 +118,8 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-}
+} */

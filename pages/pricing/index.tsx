@@ -12,7 +12,7 @@ export default function Pricing() {
     <>
         <NavBar />
             <div className='flex flex-col text-center justify-center bg-white'>
-            <h1 className='font-bold text-[2em] mb-6 w-auto'>Pricing built for businesses<br /> of all sizes.</h1>
+            <h1 className='font-bold text-[2em] mb-6 w-auto text-black'>Pricing built for businesses<br /> of all sizes.</h1>
             {/* <div className='border border-slate-300 rounded-md px-1 py-1 flex justify-around gap-3 ml-auto mr-auto'>
                 <span className='py-1 px-1 rounded-md bg-rose-500'>Monthly billing</span>
                 <span className='py-1 px-1 rounded-md '>Annula billing</span>
@@ -25,7 +25,7 @@ export default function Pricing() {
                 </div>
                 <div className='mt-10 grid lg:grid-cols-3 md:grid-cols-2 gap-6 lg:gap-[4%] md:gap-5 lg:px-[5em] md:px-[2em] px-[1em]'>
                     <div className='flex flex-col bg-white z-[2] text-left lg:mb-[-1.5em] lg:mt-auto md:mt-[2em] p-6 transition-all duration-300 lg:scale-90 lg:h-[25.5em] cursor-pointer border border-slate-300 rounded-lg'>
-                        <h2 className='text-[2em] pb-4 font-bold'>1.0%</h2>
+                        <h2 className='text-black text-[2em] pb-4 font-bold'>1.0%</h2>
                         <p className='font-bold'>Standard plan</p>
                         <p className='text-slate-500'>Billed monthly</p>
 
@@ -42,7 +42,7 @@ export default function Pricing() {
                     </div>
 
                     <div className='flex mb-5 flex-col bg-white z-[2] text-left lg:mb-[1.3em] lg:mt-[5em] md:mt-[2em] p-6 transition-all duration-300 border border-slate-300  lg:scale-[1.15] cursor-pointer lg:border-[0.2em] lg:border-[#7B61FF] rounded-lg'>
-                        <h2 className='text-[2em] pb-4 font-bold'>1.5%</h2>
+                        <h2 className='text-black text-[2em] pb-4 font-bold'>1.5%</h2>
                         <p className='font-bold'>Currency Conversion</p>
                         <p className='text-slate-500'>Billed monthly</p>
 
@@ -59,7 +59,7 @@ export default function Pricing() {
                     </div>
 
                     <div className='flex flex-col bg-white z-[2] text-left lg:mt-auto lg:mb-[-1.5em] md:mt-[2em] p-6 transition-all duration-300 lg:scale-90 lg:h-[25.5em] cursor-pointer border border-slate-300 rounded-lg'>
-                        <h2 className='text-[2em] pb-4 font-bold'>Customised</h2>
+                        <h2 className='text-black text-[2em] pb-4 font-bold'>Customised</h2>
                         <p className='font-bold'>Enterprise Plan</p>
                         <p className='text-slate-500 text-[0.9em]'>A custom package for your business</p>
 
@@ -75,7 +75,7 @@ export default function Pricing() {
 
             {/* COMMON QUESTIONS */}
             <div className='pt-12 lg:px-[5em] md:px-[2em] px-[1em] z-[2] bg-white'>
-                <h2 className='text-[2em] font-bold mb-2'>Common Questions</h2>
+                <h2 className='text-black text-[2em] font-bold mb-2'>Common Questions</h2>
                 <p className='text-slate-500'>Everything you need to know regarding Pricing and <br /> Billing in BonPay</p>
 
                 <div className='grid mt-8 lg:grid-cols-3 gap-4 my-5 md:grid-cols-2'>
