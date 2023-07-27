@@ -58,7 +58,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <hr className='border border-[#5241AA] my-7'/>
+      <hr className='border border-[#5241AA] my-7 md:mt-10 lg:mt-16'/>
       <p>c 2023 Bonpay, Inc.</p>
     </div>
   )
