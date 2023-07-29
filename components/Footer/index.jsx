@@ -9,58 +9,58 @@ import {AiFillYoutube} from 'react-icons/ai'
 
 export default function Footer() {
   return (
-    <div className='bg-[#6651D4] text-white lg:px-16 py-11 px-6'>
-      <div className='flex gap-10 lg:gap-4 md:gap-4 flex-wrap '>
-        <div className='flex flex-[1] flex-col'>
-          <h3 className='pb-3 font-bold text-lg'>Products</h3>
-          <Link href={'/#'} className='flex items-center pb-2'>Online Payments</Link>
-          <Link href={'/#'} className='flex items-center pb-2'>Payments Links</Link>
-          <Link href={'/#'} className='flex items-center pb-2'>No-Code Payment</Link>
-          <Link href={'/#'} className='flex items-center pb-2'>Payment for Platforms</Link>
-          <Link href={'/#'} className='flex items-center pb-2'>Customizable Payments UIs</Link>
-        </div>        
-        <div className='flex flex-[1] flex-col'>
-          <h3 className='pb-3 font-bold text-lg'>Company</h3>
-          <Link href={'/#'} className='flex items-center pb-2'>About us</Link>
-          <Link href={'/#'} className='flex items-center pb-2'>Blog</Link>
-          <Link href={'/#'} className='flex items-center pb-2'>Contact Us</Link>
-          <Link href={'/#'} className='flex items-center pb-2'>Terms of Use</Link>
-          <Link href={'/#'} className='flex items-center pb-2'>Help</Link>
-          <Link href={'/#'} className='flex items-center pb-2'>FAQ</Link>
-        </div>        
-        <div className='flex flex-1 flex-col'>
-          <h3 className='pb-3 font-bold text-lg'>Developers</h3>
-          <Link href={'/#'} className='flex items-center pb-2'>Developer Resources</Link>
-          <Link href={'/#'} className='flex items-center pb-2'>Documentation</Link>
-          <Link href={'/#'} className='flex items-center pb-2'>API Documentation <FiExternalLink  className='ml-2'/></Link>
-          <Link href={'/#'} className='flex items-center pb-2' >Get an API key</Link>
-          <Link href={'/#'} className='flex items-center pb-2'>Test with Sample App <FiExternalLink className='ml-2' /></Link>
-        </div>
-        <div className='lg:flex lg:flex-[3] flex-col md:grid ml-auto' >
-          <h3 className='pb-3 font-bold text-lg' >Subscribe to Bonpay Newsletter</h3>
-          <div className='flex gap-2 flex-col lg:flex-row md:flex-row'>
-            <input className='flex pl-4 w-[100%] rounded-lg py-2 lg:py-0 md:py-0' type='text' placeholder='Enter your eamil address'/>
-            <button className='px-4 py-2 bg-[#7B61FF] rounded-lg'>Subscribe</button>
+      <footer className='bg-[#6651D4] text-white lg:px-16 py-11 px-6'>
+        <div className='flex gap-10 lg:gap-4 md:gap-4 flex-wrap '>
+          <div className='flex flex-[2] md:flex-[1] flex-col font-extralight text-[0.9em] md:text-[1em]'>
+            <h3 className='pb-3 font-bold text-lg'>Products</h3>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Online Payments</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Payments Links</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>No-Code Payment</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Payment for Platforms</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Customizable Payments UIs</Link>
+          </div>        
+          <div className='flex flex-[1] md:flex-[1] flex-col font-extralight text-[0.9em] md:text-[1em]'>
+            <h3 className='pb-3 font-bold text-lg'>Company</h3>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>About us</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Blog</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Contact Us</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Terms of Use</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Help</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>FAQ</Link>
           </div>
-          <p className='pt-4'>
-            By subscribing to this form, you agree to receive marketing and other information from Bonpay about Bonpay Products 
-            and other company updates. You can unsubscribe from these communications at anytime. 
-          </p>
-          <div className='mt-4 w-[12em]'>
-            <p className='font-bold mb-2'>Follow Bonpay on Social</p>
-            <div className='flex justify-between'>
-              <AiOutlineTwitter size={25}/>
-              <AiFillInstagram size={25}/>
-              <AiFillLinkedin size={25} />
-              <BsDiscord size={25}/>
-              <AiFillYoutube size={25}/>
+          <div className='flex flex-[1] md:flex-[1] flex-col font-extralight text-[0.9em] md:text-[1em]'>
+            <h3 className='pb-3 font-bold text-lg'>Developers</h3>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Developer Resources</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Documentation</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>API Documentation <FiExternalLink  className='ml-2'/></Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2' >Get an API key</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Test with Sample App <FiExternalLink className='ml-2' /></Link>
+          </div>
+          <div className=' flex flex-col ml-auto md:grid lg:flex lg:flex-[3] md:items-stretch' >
+            <h3 className='pb-3 font-bold text-lg text-center md:text-left' >Subscribe to Bonpay Newsletter</h3>
+            <div className='flex gap-2 flex-col lg:flex-row md:flex-col'>
+              <input className='flex pl-4 w-[100%] rounded-lg py-2 lg:py-0 md:py-3' type='text' placeholder='Enter your eamil address'/>
+              <button className='px-4 py-2 rounded-lg bg-[#7B61FF] md:w-[100%] w-[70%] mx-auto'>Subscribe</button>
+            </div>
+            <p className='pt-8 md:pt-4 text-center md:text-left text-[0.9em] lg:text-[1em] font-extralight'>
+              By subscribing to this form, you agree to receive marketing and other information from Bonpay about Bonpay Products 
+              and other company updates. You can unsubscribe from these communications at anytime. 
+            </p>
+            <div className='mt-8 md:mt-4 w-[15em] lg:w-[15em] md:w-[15em] mx-auto lg:mx-0 md:mx-0'>
+              <p className='font-bold text-[1.2em] mb-2'>Follow Bonpay on Social</p>
+              <div className='flex justify-between'>
+                <AiOutlineTwitter size={25}/>
+                <AiFillInstagram size={25}/>
+                <AiFillLinkedin size={25} />
+                <BsDiscord size={25}/>
+                <AiFillYoutube size={25}/>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <hr className='border border-[#5241AA] my-7 md:mt-10 lg:mt-16'/>
-      <p>c 2023 Bonpay, Inc.</p>
-    </div>
+        <hr className='border border-[#5241AA] my-7 hidden md:mt-10 md:flex lg:mt-16'/>
+        <p className='hidden md:flex'>c 2023 Bonpay, Inc.</p>
+    </footer>
   )
 }
 
