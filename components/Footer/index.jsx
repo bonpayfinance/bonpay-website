@@ -13,28 +13,28 @@ export default function Footer() {
         <div className='flex gap-10 lg:gap-4 md:gap-4 flex-wrap '>
           <div className='flex flex-[2] md:flex-[1] flex-col font-extralight text-[0.9em] md:text-[1em]'>
             <h3 className='pb-3 font-bold text-lg'>Products</h3>
-            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Online Payments</Link>
-            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Payments Links</Link>
-            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>No-Code Payment</Link>
-            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Payment for Platforms</Link>
-            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Customizable Payments UIs</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2 font-extralight'>Online Payments</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2 font-extralight'>Payments Links</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2 font-extralight'>No-Code Payment</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2 font-extralight'>Payment for Platforms</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2 font-extralight'>Customizable Payments UIs</Link>
           </div>        
           <div className='flex flex-[1] md:flex-[1] flex-col font-extralight text-[0.9em] md:text-[1em]'>
             <h3 className='pb-3 font-bold text-lg'>Company</h3>
-            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>About us</Link>
-            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Blog</Link>
-            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Contact Us</Link>
-            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Terms of Use</Link>
-            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Help</Link>
-            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>FAQ</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2 font-extralight'>About us</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2 font-extralight'>Blog</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2 font-extralight'>Contact Us</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2 font-extralight'>Terms of Use</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2 font-extralight'>Help</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2 font-extralight'>FAQ</Link>
           </div>
           <div className='flex flex-[1] md:flex-[1] flex-col font-extralight text-[0.9em] md:text-[1em]'>
             <h3 className='pb-3 font-bold text-lg'>Developers</h3>
-            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Developer Resources</Link>
-            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Documentation</Link>
-            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>API Documentation <FiExternalLink  className='ml-2'/></Link>
-            <Link href={'/#'} className='flex items-center pb-3 md:pb-2' >Get an API key</Link>
-            <Link href={'/#'} className='flex items-center pb-3 md:pb-2'>Test with Sample App <FiExternalLink className='ml-2' /></Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2 font-extralight'>Developer Resources</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2 font-extralight'>Documentation</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2 font-extralight'>API Documentation <FiExternalLink  className='ml-2'/></Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2 font-extralight' >Get an API key</Link>
+            <Link href={'/#'} className='flex items-center pb-3 md:pb-2 font-extralight'>Test with Sample App <FiExternalLink className='ml-2' /></Link>
           </div>
           <div className=' flex flex-col ml-auto md:grid lg:flex lg:flex-[3] md:items-stretch' >
             <h3 className='pb-3 font-bold text-lg text-center md:text-left' >Subscribe to Bonpay Newsletter</h3>
