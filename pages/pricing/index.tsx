@@ -56,7 +56,7 @@ export default function Pricing() {
                             <p className='text-[0.9em]'>Business can fix the price in a fiat/cryptocurrency and receive payment in any currency</p>
                             </div>
 
-                            <button className='font-bold text-[0.9em] border-2 transition-all duration-300 border-[#7B61FF] bg-[#7B61FF] text-white lg:mb-[1em] rounded-md mt-auto p-2'>Choose this plan</button> 
+                            <button className='font-bold text-[0.9em] border-2 transition-all duration-300 border-[#7B61FF] bg-[#7B61FF] text-white lg:mb-[1em] hover:bg-white hover:text-[#7861FF] rounded-md mt-auto p-2'>Choose this plan</button> 
                         </div>
 
                         <div className='flex flex-col rounded-lg bg-white z-[2] text-left lg:mt-auto lg:mb-[-1.5em] md:mt-[2em] p-6 pb-10 transition-all duration-300 lg:scale-90 lg:h-[27em] cursor-pointer border border-slate-300'>
