@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import tick from '../../pricing_page_assests/tick-circle.svg'
-import lineImg from '../../pricing_page_assests/Line 6.png'
-import bg from '../../pricing_page_assests/Frame4.png'
-import message from '../../pricing_page_assests/messages-2.png'
+import { tickCircle, Frame4, Line6, messages2 } from '@/components/assets';
+// import tick from '../../pricing_page_assests/tick-circle.svg'
+// import lineImg from '../../pricing_page_assests/Line 6.png'
+// import bg from '../../pricing_page_assests/Frame4.png'
+// import message from '../../pricing_page_assests/messages-2.png'
 
 export default function PricingPage() {
     return (
@@ -14,7 +15,7 @@ export default function PricingPage() {
                 <span className='py-1 px-1 rounded-md '>Annula billing</span>
             </div> */}
             <div className='relative bg-slate-100 lg:bg-white md:bg-none py-6 lg:py-0' style={{position: 'relative'}}>
-                <Image alt='background' src={bg} width={2000} height={2000} className='transform ' style={{width: '100%', height: '100%', position: 'absolute'}}/>
+                <Image alt='background' src={Frame4} width={2000} height={2000} className='transform ' style={{width: '100%', height: '100%', position: 'absolute'}}/>
                 <div className='border border-slate-200 rounded-md px-1 py-1 w-[16.6em] bg-[#FCFCFD] flex justify-around gap-3 ml-auto mr-auto'>
                     <span className='py-2 px-2 font-semibold rounded-md bg-[#7B61FF] text-white'>Monthly billing</span>
                     <span className='py-2 px-2 font-semibold rounded-md text-slate-500 '>Annual billing</span>
@@ -26,11 +27,11 @@ export default function PricingPage() {
                         <p className='text-slate-700'>Billed monthly</p>
 
                         <div className='text-slate-700 flex items-start mt-8 gap-2'>
-                        <Image alt='tick' height={20} width={20} src={tick}/>
+                        <Image alt='tick' height={20} width={20} src={tickCircle}/>
                         <p className='text-[0.9em] '>Creators can set the price and receive payments in the same currency</p>
                         </div>
                         <div className='text-slate-700 flex items-start mt-4 pb-4 gap-2'>
-                        <Image alt='tick' height={20} width={20} src={tick}/>
+                        <Image alt='tick' height={20} width={20} src={tickCircle}/>
                         <p className='text-[0.9em]'>businesses set the price and receive payment in the same currency</p>
                         </div>
 
@@ -44,11 +45,11 @@ export default function PricingPage() {
                         <p className='text-slate-700'>Billed monthly</p>
 
                         <div className='text-slate-700 flex items-start mt-8 gap-2'>
-                        <Image alt='tick' height={20} width={20} src={tick}/>
+                        <Image alt='tick' height={20} width={20} src={tickCircle}/>
                         <p className='text-[0.9em]'>Creators can fix the price in any Fiat/Cryptocurrency and receive payment in any Cryptocurrency</p>
                         </div>
                         <div className='text-slate-700 flex items-start mt-4 pb-4 gap-2'>
-                        <Image alt='tick' height={20} width={20} src={tick}/>
+                        <Image alt='tick' height={20} width={20} src={tickCircle}/>
                         <p className='text-[0.9em]'>Business can fix the price in a fiat/cryptocurrency and receive payment in any currency</p>
                         </div>
 
@@ -61,7 +62,7 @@ export default function PricingPage() {
                         <p className='text-slate-700 '>A custom package for your business</p>
 
                         <div className='text-slate-700 flex items-start mt-8 gap-2'>
-                        <Image alt='tick' height={20} width={20} src={tick}/>
+                        <Image alt='tick' height={20} width={20} src={tickCircle}/>
                         <p className='text-[0.9em]'>Available for businesses with large payments volume, high-value transactions, or unique business models</p>
                         </div>
 
@@ -110,9 +111,9 @@ export default function PricingPage() {
 
             {/* Contact Us Section */}
             <div className='relative lg:mx-[5em] md:mx-[2em] mx-[1em] mt-[2em] md:mt-[4em] mb-[2em] bg-[#6651D4] py-10 md:py-6 rounded-xl'>
-                <Image alt='tick' height={1000} width={1000} src={lineImg} className='w-[100%] hidden lg:flex md:flex h-[88%] absolute'/>
+                <Image alt='tick' height={1000} width={1000} src={Line6} className='w-[100%] hidden lg:flex md:flex h-[88%] absolute'/>
                 <div className='flex flex-col gap-1 items-center z-[2] relative text-white'>
-                <Image alt='message icon' src={message} height={50} width={50} className='z-[2]'/>
+                <Image alt='message icon' src={messages2} height={50} width={50} className='z-[2]'/>
                 <p className=' font-bold text-[1.1em] pt-4'>Still have questions?</p>
                 <p className='lg:w-[50%] md:w-[50%] text-white w-[90%] mt-2 font-extralight text-[0.9em]'>if you're unable to find the answer you're seeking please feel free to chat with our friendly team for further assistance.</p>
                 <button className='bg-white border-none py-3 p-6 md:px-12 rounded-lg font-bold text-[#6651D4] text-sm mt-5'>Contact Us</button>
